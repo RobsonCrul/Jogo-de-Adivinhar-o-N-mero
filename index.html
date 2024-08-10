@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <img class="image_background" src="/imagem/image_art.jpeg" alt="" >
+    
+    <div class="container">
+        <h1>JOGO DE ADIVINHAÇÃO</h1>
+
+        <p>Tente adivinhar o número entre 0 e 20.</p>
+
+        <input type="number" id="guessInput" min="0" max="20"><br>
+        <button id="submitGuess">Enviar Palpite</button>
+
+        <p id="resultMessage"></p>
+
+        <p>Tentativas restantes: <br><span id="attemptsRemaining"></span></p>
+
+        <button id="restartGame">Reiniciar Jogo</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
